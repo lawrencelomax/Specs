@@ -8,7 +8,7 @@ Pod::Spec.new do |s|
 
   s.platform     = :ios, '5.1'
   s.source       = { :git => "https://github.com/brightcove/ios-videocloud-dist.git", :tag => "v#{s.version}" }
-  s.public_header_files = 'Headers/*.h'
+  s.source_files = 'Headers/*.h'
   s.vendored_library = 'Library/libios-videocloud.a'
   s.requires_arc = true
   s.frameworks   = 'AVFoundation', 'CoreMedia', 'MediaPlayer'
