@@ -13,5 +13,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.frameworks   = 'AVFoundation', 'CoreMedia', 'MediaPlayer'
 
-  s.dependency 'ReactiveCocoa', '2.0'
+  s.dependency 'ReactiveCocoa', '>= 2.0'
 end
