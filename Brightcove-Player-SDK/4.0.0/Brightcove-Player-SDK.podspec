@@ -5,7 +5,7 @@ Pod::Spec.new do |s|
   s.homepage     = "http://docs.brightcove.com/en/video-cloud/brightcove-player-sdk-for-ios/index.html"
   s.license      = { :type => 'Commercial', :file => 'LICENSE.md' }
   s.author       = { "Brightcove" => "brightcove-native-player-sdks@googlegroups.com" }
-
+  
   s.platform     = :ios, '5.1'
   s.source       = { :git => "https://github.com/brightcove/brightcove-player-sdk-ios.git", :tag => "v#{s.version}" }
   s.source_files = "Headers/*.h"
@@ -14,5 +14,5 @@ Pod::Spec.new do |s|
   s.requires_arc = true
   s.frameworks   = 'AVFoundation', 'CoreMedia', 'MediaPlayer'
 
-  s.dependency 'ReactiveCocoa', '>= 2.0'
+  s.dependency 'ReactiveCocoa', '~> 2.0'
 end
